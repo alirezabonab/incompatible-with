@@ -1,7 +1,7 @@
 {
-  "name": "class-validator-is-compatible-with",
+  "name": "incompatible-with",
   "version": "1.0.0",
-  "description": "IsCompatibleWith is a decorator for class-validator that checks if siblings are not exist on object.",
+  "description": "InCompatibleWith is a decorator for class-validator that checks if siblings do not exist on the object.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alireza-bonab/class-validator-is-compatible-with/issues"
+    "url": "https://github.com/alireza-bonab/incompatible-with/issues"
   },
-  "homepage": "https://github.com/alireza-bonab/class-validator-is-compatible-with#readme",
+  "homepage": "https://github.com/alireza-bonab/incompatible-with#readme",
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "jest": "^26.6.3",
