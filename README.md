@@ -23,7 +23,7 @@ class UpdateUserDTO {
 
 
 ### Invalid Object
-```json
+```typescript
 const obj = {
   status: 'test',
   deleted: true,
@@ -32,14 +32,14 @@ const obj = {
 ```
 
 ### Valid Object
-```json
+```typescript
 const obj = {
   deleted: true,
   name: 'john',
 };
 ```
 Or
-```json
+```typescript
 const obj = {
   status: 'test',
   name: 'john',
