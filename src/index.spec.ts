@@ -1,6 +1,6 @@
 import { transformAndValidate } from 'class-transformer-validator';
 import { IsString, IsBoolean } from 'class-validator';
-import { IncompatibleWith } from './index';
+import IncompatibleWith from './index';
 
 class UpdateUserDTO {
   @IsString()

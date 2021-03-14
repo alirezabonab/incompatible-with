@@ -1,8 +1,8 @@
 {
-  "name": "incompatible-with",
-  "version": "1.0.5",
+  "name": "incompatiblewith",
+  "version": "1.0.6",
   "description": "InCompatibleWith is a decorator for class-validator that checks if siblings do not exist on the object.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "jest",
     "build": "rimraf lib && tsc"
@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/alireza-bonab/class-validator-is-compatible-with.git"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "class-validator",
+    "class-transformer"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
