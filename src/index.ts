@@ -64,7 +64,7 @@ function incompatibleSiblingsNotPresent(incompatibleSiblings: string[]) {
   };
 }
 
-export default function IncompatibleWith(incompatibleSiblings: string[]) {
+export function IncompatibleWith(incompatibleSiblings: string[]) {
   const notSibling = IsNotSiblingOf(incompatibleSiblings);
   const validateIf = ValidateIf(
     incompatibleSiblingsNotPresent(incompatibleSiblings),

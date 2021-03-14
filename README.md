@@ -20,6 +20,8 @@ InCompatibleWith checks if other properties exist on an object or not.
 In this case we want to have either `status` or `deleted` on the instance of class. If both exist it will complain.
 
 ```typescript
+import { IncompatibleWith } from 'incompatiblewith';
+
 class UpdateUserDTO {
   @IsString()
   @IncompatibleWith(['deleted'])
