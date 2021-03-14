@@ -1,6 +1,6 @@
 {
   "name": "incompatiblewith",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "InCompatibleWith is a decorator for class-validator that checks if siblings do not exist on the object.",
   "main": "./lib/index.js",
   "scripts": {
