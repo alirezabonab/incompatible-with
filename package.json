@@ -1,6 +1,6 @@
 {
   "name": "incompatiblewith",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "InCompatibleWith is a decorator for class-validator that checks if siblings do not exist on the object.",
   "main": "./lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alireza-bonab/class-validator-is-compatible-with.git"
+    "url": "git+https://github.com/alireza-bonab/incompatible-with/issues"
   },
   "keywords": [
     "typescript",

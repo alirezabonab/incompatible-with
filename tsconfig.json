@@ -8,13 +8,19 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "declaration": true
   },
   "include": [
     "./src/**/*.ts"
   ],
   "exclude": [
     "node_modules",
-    "lib"
+    "lib",
+    "./src/**/*.spec.ts"
   ]
 }

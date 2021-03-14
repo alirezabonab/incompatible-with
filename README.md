@@ -1,6 +1,19 @@
 # InCompatibleWith 
 InCompatibleWith is a decorator for class-validator that checks if siblings are not exist on object.
 
+### Installation
+
+```
+  npm i incompatiblewith
+```
+
+### Argument
+
+  @IncompatibleWith accepts an array of siblings name in string.
+  ```
+    @IncompatibleWith (siblingPropsName: string[])
+  ```
+
 ### Use case:
 
 InCompatibleWith checks if other properties exist on an object or not.
